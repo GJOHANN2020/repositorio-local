@@ -1,6 +1,7 @@
 @font-face {
     font-family: Muli;
-    src:url(fonts/Muli.ttf);}
+    src:url(fonts/Muli.ttf);
+}
 .home{
     display: flex;
     justify-content: space-around;
@@ -16,7 +17,7 @@
     margin-top: 20px;
     margin-right: 20px;
     cursor: pointer;
-    
+        
 }
 .elemento2{
     width:32%;
@@ -92,7 +93,7 @@
 }
 .boton{
   
-    background-color: green;
+    background-color: #58a573;
     width:200px;
     cursor: pointer;
     height: 70px;
@@ -259,4 +260,69 @@
     background-image: url(images/linea2.jpg);
     height: 100px;
     background-repeat: no-repeat;
+}
+.textotitulo{
+    font-size: 3.5rem;
+    font-family:Muli,sans-serif;
+    margin-top: 100px;
+}
+.textobajo{
+    font-family:Muli,sans-serif;   
+}
+.laptop{
+    background-image: url(images/desktoplaptop.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+.tamano{
+    background-image: url(Images/tamano.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 311px;
+
+}
+.textotamano{
+    font-family:Muli,sans-serif;
+    margin-top: -25px;
+    height: 200px;
+}
+.boton6{
+    background-color: #58a573;
+    width:200px;
+    cursor: pointer;
+    height: 70px;
+    text-align: center;
+    color: white;
+    font-family:Muli,sans-serif;
+}
+.boton6:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: white;
+}
+.features1{
+    background-image: url(images/features1.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 600px;
+    margin-top: 200px;
+    text-align: center;
+    font-family:Muli,sans-serif;
+    margin-left: 42px;
+}
+.features2{
+    background-image: url(images/features2.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 600px;
+    margin-top: 200px;
+    
 }
